@@ -1,0 +1,10 @@
+version: '2'
+services:
+  api:
+    build: ./api
+    ports:
+      - 3000:3000
+  app:
+    build: ./app
+    ports:
+      - 4000:4000
